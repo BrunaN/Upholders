@@ -1,0 +1,136 @@
+.header-carousel{
+    height: 100vh;
+    margin: auto;
+}
+
+.header-carousel{
+  overflow: hidden;
+}
+
+.header-carousel .img{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+}
+
+.header-carousel .text-carousel{
+  position: absolute;
+  top: 50vh;
+  transform: translateY(-50%);
+  width: 40%;
+  display: none;
+  height: auto;
+}
+
+.header-carousel .text-carousel.left{
+  left: 100px;
+}
+
+.header-carousel .text-carousel.top{
+  transform: translateY(0);
+  top: 100px;
+}
+
+.header-carousel .text-carousel.bottom{
+  transform: translateY(0);
+  bottom: 100px;
+}
+
+.header-carousel .text-carousel.right{
+  right: 100px;
+  text-align: right;
+}
+
+.header-carousel .text-carousel h1, .header-carousel .text-carousel p{
+  color: #fff;
+}
+
+.header-carousel .text-carousel h1{
+  border: none;
+  font-size: 40px;
+}
+
+.header-carousel .text-carousel p{
+  font-size: 30px;
+}
+
+.header-carousel .text-carousel.active{
+  display: block;
+}
+
+.header-carousel .img.active{
+    display: block;
+}
+
+.arrow{
+    position: absolute;
+    top: calc(50% - 15px);
+    border-radius: 8px;
+    width: 20px;
+    height: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.header-carousel .overlay-img{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.header-carousel .overlay-img.active{
+  display: block;
+}
+
+.header-carousel .overlay-img.overlay-yellow{
+  background-color: #f90;
+}
+
+.header-carousel .overlay-img.overlay-green{
+  background-color: #56de3f;
+}
+
+.header-carousel .overlay-img.overlay-pink{
+  background-color: #ff2180;
+}
+
+.arrow.right{
+    right: 15px;
+    background-image: url("../../img/right_branca.png");
+    background-size: 100% 100%;
+}
+
+.arrow.left{
+    left: 15px;
+    background-image: url("../../img/left_branca.png");
+    background-size: 100% 100%;
+}
+
+
+.header-carousel .overlay{
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.header-carousel .overlay .dot{
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.header-carousel .overlay .dot.active{
+    background-color:#ff2180;
+}

@@ -1,0 +1,38 @@
+.botao{
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-size: 13px;
+}
+
+.botao-medio{
+    border: 1px solid #FFF;
+    color: #FFF;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 6px;
+    padding: 13px 23px;
+    font-size: 13px;
+}
+
+.botao-ver{
+    cursor: pointer;
+    user-select: none;
+    border-radius: 6px;
+    padding: 13px 23px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #797979;
+    font-size: 14px;
+    margin: 10px;
+    width: 163px;
+}
+  
+  .botao-ver:hover{
+    color: #FF0099;
+    border: 1px solid #FF0099;
+}
+  

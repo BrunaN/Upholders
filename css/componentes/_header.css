@@ -1,0 +1,104 @@
+.header{
+    width: 100%;
+    height: 68px;
+    padding: 0 40px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    line-height: 68px;
+    background-color: transparent;
+    position: absolute;
+    top:0;
+    z-index: 100;
+}
+
+.header .explorar span img{
+  width: 10px;
+  height: 5px;
+  margin-right: 10px;
+}
+
+.header .logo{
+    float: left;
+}
+
+.header .logo a{
+  display: block;
+  height: 70px;
+  line-height: 70px;
+  width: 208px;
+}
+
+.header .logo img{
+    height: 38px;
+}
+
+.header .search, .explorar{
+    display: inline-block;
+}
+
+.header .search .input-icon{
+    position: relative;
+}
+
+.header .search .icon{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    right: 8px;
+    top:-2px;
+}
+
+.header .search .icon img{
+    height: 100%;
+}
+
+.header .search input{
+    border-radius: 8px;
+    border: 1px solid #000;
+    width: 270px;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #000;
+    outline: none;
+}
+
+.header .search input::-webkit-input-placeholder{
+  color: #000;
+}
+
+.header .search input::-moz-placeholder {
+  color: #000;
+}
+
+.header .search input:-ms-input-placeholder{
+  color: #000;
+}
+
+.header .search input:-moz-placeholder{
+  color: #000;
+}
+
+.header .links{
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+}
+
+.header .links a, .explorar a{
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 7px 10px;
+    color: #000;
+}
+
+.header .links a:hover{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.header .explorar a:hover{
+    background-color: rgba(0, 0, 0, .1);
+}

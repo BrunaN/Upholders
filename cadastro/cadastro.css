@@ -1,0 +1,72 @@
+#cadastro.container{
+  margin: 170px auto;
+}
+
+#cadastro.container .image, #cadastro.container .text{
+  display: inline-block;
+  float: left;
+}
+
+#cadastro.container .col-sm-6:last-child{
+  border-left: 1px solid #ccc;
+  padding-left: 30px;
+}
+
+#cadastro.container .col-sm-6{
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+#cadastro.container .col-sm-6 > div{
+  min-height: 200px;
+}
+
+#cadastro.container .image{
+  margin-top: 10px;
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  border: 2px solid #56de3f;
+}
+
+#cadastro.container .image img{
+  margin: 3px;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  border: 1px solid #56de3f;
+}
+
+#cadastro.container .text h2{
+  margin-bottom: 5px;
+}
+
+#cadastro.container .text p{
+  margin: 5px 2px;
+}
+
+#cadastro.container .text .botao{
+  display: inline-block;
+  padding: 10px;
+  border-radius: 6px;
+  color: #101010;
+  text-decoration: none;
+  border: 1px solid #797979;
+  margin: 5px 0;
+}
+
+#cadastro.container .text .botao:hover{
+  color: #56de3f;
+  border: 1px solid #56de3f;
+}
+
+#cadastro.container .text{
+  margin-left: 10px;
+  width: calc(100% - 152px);
+}
+
+@media screen and (max-width: 767px) {
+  #cadastro.container .col-sm-6:last-child{
+    border-left: none;
+  }
+}

@@ -1,0 +1,97 @@
+#login{
+  margin-top: 170px;
+}
+
+#login .col-sm-6:last-child{
+  border-left: 1px solid #ccc;
+  padding: 30px;
+  padding-left: 40px;
+}
+
+#login .col-sm-6{
+  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-left: 120px;
+  box-sizing: border-box;
+}
+
+#login .col-sm-6 h1{
+  font-size: 24px;
+}
+
+#login form label{
+  padding-bottom: 4px;
+  font-size: 16px;
+}
+
+#login form div{
+  width: 414px;
+}
+
+#login form input{
+  height: 40px;
+  width: 414px;
+  border: 1px solid #797979;
+  border-radius: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#login form div a{
+  float: right;
+  color: #FF0099;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#login form div a:hover{
+  color: #FF9900;
+}
+
+#login .col-sm-6 > div{
+  display: table;
+  margin-top: 90px;
+  min-height: 200px;
+}
+
+#login .col-sm-6 > div h1{
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+}
+
+#login .botao-medio{
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #797979;
+  font-size: 14px;
+  padding: 8px 15px;
+  margin-top: 20px;
+}
+
+#login .botao-medio:hover{
+  color: #FF0099;
+  border: 1px solid #FF0099;
+}
+
+#login .col-sm-6 > div a{
+  padding: 0;
+  margin: 0;
+  color: #FF218A;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#login .col-sm-6 > div a:hover{
+  color: #56DE3F;
+}
+
+@media screen and (max-width: 767px) {
+  #Login.container .col-sm-6:last-child{
+    border-left: none;
+  }
+}

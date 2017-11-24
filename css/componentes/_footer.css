@@ -1,0 +1,75 @@
+footer{
+  background-color: #232020;
+  min-height: 650px;
+  padding-top: 30px;
+}
+
+footer .container-fluid{
+  border-bottom: 1px solid #dcdcdc;
+  min-height: 500px;
+  padding-bottom: 30px;
+  margin: 0 40px;
+}
+
+footer .container-fluid h2{
+  color: #fff;
+}
+
+footer .container-fluid ul{
+  list-style-type: none;
+  padding: 20px 0 25px;
+}
+
+footer .container-fluid ul li a{
+  font-size: 14px;
+  display: block;
+  color: #dcdcdc;
+  padding: 3px 0;
+}
+
+footer .container-fluid ul li a:hover{
+  text-decoration: none;
+}
+
+footer .container-fluid ul li a i{
+  margin-right: 5px;
+}
+
+footer .logo{
+  text-align: center;
+  height: 150px;
+}
+
+footer .logo img{
+  margin: 30px 0 10px;
+  height: 40px;
+}
+
+footer .logo .copyright{
+  text-align: center;
+}
+
+footer .logo .copyright, footer .logo .copyright a{
+  color: #fff;
+  font-size: 14px;
+}
+
+footer form button.botao{
+  background-color: #fd4d9f;
+  border: 1px solid #fd4d9f;
+}
+
+
+@media screen and (max-width: 767px) {
+  footer .container-fluid ul{
+    padding: 10px 0 15px;
+  }
+
+  footer .container-fluid ul li a{
+    padding: 1.5px 0;
+  }
+
+  footer .container-fluid{
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,27 @@
+.dropdown-perfil{
+    background-color: #E4E4E4;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 261px;
+    border-radius: 15px;
+}
+
+.dropdown-perfil ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.dropdown-perfil ul li a{
+    padding: 7px 0;
+    margin: 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: #232020;
+    display: block;
+    border-bottom: 1px solid #bbb;
+}
+
+.dropdown-perfil ul li:last-child a{
+    border-bottom: none;
+}

@@ -1,0 +1,216 @@
+/* card do projeto social */
+
+.card-projeto{
+    height: 436px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 2px 2px 4px #ccc;
+    cursor: pointer;
+}
+
+.card-projeto .card-projeto-img{
+    height: 218px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-projeto .card-projeto-info, .card-projeto-overlay-info{
+    height: 218px;
+    width: 100%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-projeto .card-projeto-info h4{
+    padding: 0;
+    font-size: 14px;
+}
+
+.card-projeto-overlay-info{
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.card-projeto-overlay-info > h3{
+    padding: 0;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.card-projeto-overlay-info ul{
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+.card-projeto-overlay-info ul li:before{
+   content: '';
+   padding: 0;
+   display: inline-block;
+   height: 15px;
+   width: 15px;
+   margin-right: 10px;
+   background-image: url("../../img/hexagono_branco.png");
+   background-size: 100% 100%;
+}
+
+.card-projeto-overlay-info p{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.card-projeto-overlay-info p:before{
+    content: '';
+    display: inline-block;
+    background-image: url("../../img/pin_branco.png");
+    height: 15px;
+    width: 10px;
+    margin-left: 2.5px;
+    margin-right: 12.5px;
+    background-size: 100% 100%;
+}
+
+.card-projeto-info h3{
+    font-size: 20px;
+    margin: 0;
+    color: #FF9900;
+}
+
+.card-projeto-info h4{
+    margin: 3px 0;
+    font-size: 18px;
+}
+
+.card-projeto-info p{
+    font-size: 13px;
+    margin: 0;
+}
+
+.card-projeto-overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #FF9900;
+    opacity: 0.90;
+    z-index: 2;
+}
+
+.card-projeto-overlay-branco{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    background-color: #FFF;
+    z-index: 1;
+}
+
+.card-projeto:hover .card-projeto-overlay{
+    display: block;
+}
+
+.card-projeto:hover .card-projeto-overlay-branco{
+    display: block;
+}
+
+.card-projeto-overlay > .botao-medio{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    background-color: transparent;
+}
+
+.card-projeto-info h4:before{
+    content: '';
+    display: inline-block;
+    background-image: url("../../img/tag.png");
+    height: 15px;
+    width: 15px;
+    margin-left: 2.5px;
+    margin-right: 12.5px;
+    background-size: 100% 100%;
+}
+
+
+/* card do relato de experiência */
+
+.card-relato{
+    display: block;
+    overflow: auto;
+    max-width: 100%;
+    min-height: 306px;
+    width: 784px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 30px 35px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.card-relato .relato-img{
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.card-relato .relato-img .card-relato-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-relato .relato-container{
+    position: relative;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float: right;
+    width: calc(784px - 125px - 70px);
+    height: 100%;
+}
+
+.card-relato .relato-container h2{
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    font-size: 28px;
+}
+
+.card-relato .relato-container h3{
+    margin: 0;
+    padding: 8px 0 0;
+    font-size: 15px;
+}
+
+.card-relato .relato-container p{
+    margin: 0;
+    padding: 9px 0;
+    font-size: 14px;
+    color: 333333;
+}
+
+.card-relato span{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 35px;
+    bottom: 30px;
+    font-size: 13px;
+    color: ;
+}

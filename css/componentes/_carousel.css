@@ -1,0 +1,22 @@
+.slick-slide{
+  margin: 29.5px 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .slick-slide{
+      margin: 20px 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .slick-slide{
+      margin: 20px 7.5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slick-slide{
+      margin: 5px;
+  }
+}
