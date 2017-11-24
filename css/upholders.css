@@ -677,13 +677,13 @@ input{
 
 .arrow.right{
     right: 15px;
-    background-image: url("img/right_branca.png");
+    background-image: url("../img/right_branca.png");
     background-size: 100% 100%;
 }
 
 .arrow.left{
     left: 15px;
-    background-image: url("img/left_branca.png");
+    background-image: url("../img/left_branca.png");
     background-size: 100% 100%;
 }
 
