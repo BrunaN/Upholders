@@ -44,8 +44,16 @@
   outline: none;
 }
 
+#login form label::selection{
+  color: #FF0099;
+}
+
+#login form input:focus{
+  border: 1px solid #FF0099;
+}
+
 #login form div a{
-  float: right;
+  float: left;
   color: #FF0099;
   font-size: 14px;
   text-decoration: none;
@@ -68,17 +76,17 @@
 }
 
 #login .botao-medio{
-  background-color: transparent;
-  color: #000;
-  border: 1px solid #797979;
+  float: right;
+  background-color: #FF0099;
+  color: #fff;
+  border: none;
   font-size: 14px;
   padding: 8px 15px;
   margin-top: 20px;
 }
 
 #login .botao-medio:hover{
-  color: #FF0099;
-  border: 1px solid #FF0099;
+  background-color: #56DE3F;
 }
 
 #login .col-sm-6 > div a{
