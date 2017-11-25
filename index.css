@@ -51,8 +51,9 @@ h1{
   text-decoration: none;
 }
 
-.explorar a:hover{
-  text-decoration: none
+.header .explorar a:hover{
+  text-decoration: none;
+  color: #fff;
 }
 
 #background{

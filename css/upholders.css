@@ -529,19 +529,17 @@ footer{
     border-radius: 6px;
     padding: 7px 10px;
     color: #000;
+    cursor: pointer;
 }
 
 .header .links a:hover{
     background-color: rgba(0, 0, 0, .1);
 }
 
-.header .explorar{
-    cursor: pointer;
-}
-
 .header .explorar a:hover{
     background-color: rgba(0, 0, 0, .1);
     text-decoration: none;
+    color: #000;
 }
 
 /* inputs */
