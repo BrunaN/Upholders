@@ -538,6 +538,7 @@ footer{
 .header .explorar a:hover{
     background-color: rgba(0, 0, 0, .1);
     text-decoration: none;
+    color: #000;
 }
 
 /* inputs */

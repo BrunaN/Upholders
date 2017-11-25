@@ -19,18 +19,22 @@
   font-size: 24px;
 }
 
+#login form {
+  padding-right: 30px;
+}
+
 #login form label{
   padding-bottom: 4px;
   font-size: 16px;
 }
 
 #login form div{
-  width: 414px;
+  width: 100%;
 }
 
 #login form input{
   height: 40px;
-  width: 414px;
+  width: 100%;
   border: 1px solid #797979;
   border-radius: 8px;
   margin-top: 4px;
