@@ -1,7 +1,6 @@
 body > .container{
     margin-top: 205px;
     margin-bottom: 30px;
-    height: 750px;
     font-size: 17px;
     box-sizing: border-box;
 }
@@ -73,7 +72,7 @@ body > .container{
     background-color: #F2F2F2;
     border-radius: 15px;
     z-index: -1;
-    padding: 185px 30px 30px 30px; 
+    padding: 195px 30px 10px 30px; 
     box-sizing: border-box;
 }
 #container-infos ul{
@@ -145,45 +144,50 @@ body > .container{
     margin-top: 20px;
 }
 
-.menu{
-    min-height: 500px;
-    position: relative;
-    height: auto;
+#menu{
     padding-bottom: 30px;
     margin: auto;
 }
 
-.menu .item{
-    display: block;
-    float: left;
+#menu ul{
+    margin: 0;
+    padding: 0;
 }
 
-.menu .item a{
+#menu ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#menu ul li a{
     cursor: pointer;
+    margin: 0;
     text-decoration: none;
     font-size: 18px;
     color: #333333;
     font-weight: bold;
-    padding: 10px 6px;
+    padding: 10px 8px;
     display: block;
     border-bottom: 3px solid #F2F2F2;
 }
 
-.menu .item .item-container{
-    position: absolute;
+.item-container{
+    box-sizing: border-box;
     display: none;
-    padding: 10px 0;
+    padding: 10px 15px;
     font-size: 17px;
 }
 
-.menu .item.active .item-container{
+.item-container.active{
     display: block;
 }
 
-.menu .item.active a{
+#menu .item.active a{
     border-bottom: 3px solid #FF9900;
 }
 
-.menu .item a:hover{
+#menu .item a:hover{
     border-bottom: 3px solid #FF9900;
 }
