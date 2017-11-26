@@ -115,7 +115,7 @@
         <div class="row">
             <div class="col-sm-12" id="menu">
                 <ul>
-                    <li class="item active"><a href="#sobre">Sobre</a></li><li class="item"><a href="#mural">Mural</a></li><li class="item"><a href="#upholders">Upholders</a></li><li class="item"><a href="#comentarios">Comentários</a></li><li class="item"><a href="#relatos">Relatos de experiência</a></li>
+                    <li><a  class="item active" href="#sobre">Sobre</a></li><li><a class="item" href="#mural">Mural</a></li><li><a  class="item" href="#upholders">Upholders</a></li><li><a class="item" href="#comentarios">Comentários</a></li><li><a class="item"href="#relatos">Relatos de experiência</a></li>
                 </ul>
             </div>
             <div class="item-container container active" id="sobre">
@@ -202,6 +202,7 @@
       $(document).ready(function(){
         $elem = $("#explorar");
         $img = $(".header .explorar span img");
+        $itens = $(".item-container");
   
         $('#explorarLink').click(function(){
           $elem.fadeToggle('fast');
@@ -214,11 +215,13 @@
           $img.attr("src", "../img/seta_baixo_explorar.png");
         });
         
-
         $(".item").click(function(){
-            $(".item").removeClass('active');
-            $(this).addClass('active');
-        })
+            $(".item").removeClass("active");
+            $(".item-container").removeClass("active");
+            $(this).addClass("active");
+            let id = $(this).attr("href");
+            $(id).addClass("active");
+        }) 
       });
 
     </script>

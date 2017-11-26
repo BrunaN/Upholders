@@ -161,14 +161,14 @@ body > .container{
     display: inline-block;
 }
 
-#menu ul li a{
+#menu ul li .item{
     cursor: pointer;
     margin: 0;
     text-decoration: none;
     font-size: 18px;
     color: #333333;
     font-weight: bold;
-    padding: 10px 8px;
+    padding: 12px 8px;
     display: block;
     border-bottom: 3px solid #F2F2F2;
 }
@@ -184,10 +184,10 @@ body > .container{
     display: block;
 }
 
-#menu .item.active a{
+#menu .item.active{
     border-bottom: 3px solid #FF9900;
 }
 
-#menu .item a:hover{
+#menu .item:hover{
     border-bottom: 3px solid #FF9900;
 }
