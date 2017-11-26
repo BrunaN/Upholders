@@ -208,8 +208,8 @@ body{
     display: block;
     overflow: auto;
     max-width: 100%;
-    min-height: 306px;
-    width: 784px;
+    min-height: 273px;
+    width: 728px;
     margin: auto;
     border-radius: 15px;
     padding: 30px 35px;
@@ -237,7 +237,7 @@ body{
     padding-left: 20px;
     box-sizing: border-box;
     float: right;
-    width: calc(784px - 125px - 70px);
+    width: calc(728px - 125px - 70px);
     height: 100%;
 }
 
