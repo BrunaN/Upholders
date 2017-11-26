@@ -2,6 +2,8 @@ body > .container{
     margin-top: 100px;
     margin-bottom: 30px;
     height: 750px;
+    font-size: 17px;
+    box-sizing: border-box;
 }
 
 .container .infos-principais{
@@ -134,6 +136,10 @@ body > .container{
     border: none;
 }
 
+#doar:hover, #voluntariar:hover{
+    font-weight: bolder;
+}
+
 .botao-ver{
     margin-top: 20px;
 }
@@ -159,7 +165,7 @@ body > .container{
     font-weight: bold;
     padding: 10px 6px;
     display: block;
-    border-bottom: 3px solid #797979;
+    border-bottom: 3px solid #F2F2F2;
 }
 
 .menu .item .item-container{

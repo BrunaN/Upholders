@@ -56,6 +56,14 @@ body{
     cursor: pointer;
 }
 
+@keyframes animation{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 0.90;
+    }
+}
+
 .card-projeto .card-projeto-img{
     height: 218px;
     width: 100%;
@@ -148,6 +156,8 @@ body{
     width: 100%;
     border-radius: 15px;
     background-color: #FF9900;
+    animation-name: animation;
+    animation-duration: 0.8s;
     opacity: 0.90;
     z-index: 2;
 }
@@ -158,6 +168,8 @@ body{
     bottom: 0;
     height: 50%;
     width: 100%;
+    animation-name: animation;
+    animation-duration: 0.8s;
     border-radius: 0 0 15px 15px;
     background-color: #FFF;
     z-index: 1;
