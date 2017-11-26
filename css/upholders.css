@@ -398,6 +398,7 @@ footer{
     font-size: 15px;
     color: #dcdcdc;
     padding: 3px 0;
+    transition: color 0.8s linear;
   }
 
   footer .container-fluid ul li a:hover{
@@ -415,7 +416,7 @@ footer{
   }
 
   footer .logo img{
-    margin: 50px 0 10px;
+    margin: 55px 0 10px;
     height: 60px;
   }
 
@@ -518,19 +519,19 @@ footer{
 }
 
 .header .search input::-webkit-input-placeholder{
-  color: #000;
+  color: rgba(0, 0, 0, .6);
 }
 
 .header .search input::-moz-placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, .6);
 }
 
 .header .search input:-ms-input-placeholder{
-  color: #000;
+  color: rgba(0, 0, 0, .6);
 }
 
 .header .search input:-moz-placeholder{
-  color: #000;
+  color: rgba(0, 0, 0, .6);
 }
 
 .header .links{
@@ -546,6 +547,7 @@ footer{
     padding: 7px 10px;
     color: #000;
     cursor: pointer;
+    transition: background-color 0.8s linear;
 }
 
 .header .links a:hover{

@@ -32,18 +32,22 @@ h1{
 
 .header .search input::-webkit-input-placeholder{
   color: #fff;
+  opacity: 0.7;
 }
 
 .header .search input::-moz-placeholder {
   color: #fff;
+  opacity: 0.7;
 }
 
 .header .search input:-ms-input-placeholder{
   color: #fff;
+  opacity: 0.7;
 }
 
 .header .search input:-moz-placeholder{
   color: #fff;
+  opacity: 0.7;
 }
 
 .header .links a, .explorar a{
