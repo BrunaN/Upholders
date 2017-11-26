@@ -1,5 +1,5 @@
 body > .container{
-    margin-top: 250px;
+    margin-top: 205px;
     margin-bottom: 30px;
     height: 750px;
     font-size: 17px;
@@ -8,32 +8,33 @@ body > .container{
 
 .container .container-projeto{
     position: absolute;
-    top: 130px;
+    top: 110px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.container .infos-principais{
+.container .container-projeto .infos-principais{
     margin: auto;
     width: 400px;
     text-align: center;
 }
 
-.container .infos-principais h2{
+.container .container-projeto .infos-principais h2{
     padding: 0;
     margin: 0;
     color: #333333;
 }
 
-.container .infos-principais p{
+.container .container-projeto .infos-principais p{
     font-size: 15px;
     font-weight: bold;
     color: #797979;
     display: inline-block;
     padding-left: 4px;
+    margin:0;
 }
 
-.container .infos-principais #localizacao:before{
+.container .container-projeto .infos-principais #localizacao:before{
     content: '';
     display: inline-block;
     background-image: url("../img/pin_branco.png");
@@ -44,7 +45,7 @@ body > .container{
     background-size: 100% 100%;
 }
 
-.container .infos-principais #categoria:before{
+.container .container-projeto .infos-principais #categoria:before{
     content: '';
     display: inline-block;
     background-image: url("../img/tag.png");
@@ -55,25 +56,24 @@ body > .container{
     background-size: 100% 100%;
 }
 
-.container .img{
+.container .container-projeto .img{
     width: 200px;
     height: 200px;
     margin: auto;
 }
 
-.container .img img{
+.container .container-projeto .img img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
 
 .container #container-infos{
-    width: 1160px;
     /* height: 600px; */
     background-color: #F2F2F2;
     border-radius: 15px;
     z-index: -1;
-    padding: 200px 30px 30px 30px; 
+    padding: 185px 30px 30px 30px; 
     box-sizing: border-box;
 }
 #container-infos ul{
@@ -85,7 +85,8 @@ body > .container{
     margin: 0;
     list-style-type: none;
     padding-left: 0;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 #container-infos ul li:before{
@@ -112,10 +113,7 @@ body > .container{
 
 .container #container-infos .infos{
     padding: 0;
-    width: 500px;
     box-sizing: border-box;
-    padding-left: 10px;
-    float: right;
 }
 
 .funcionalidade{
@@ -148,8 +146,8 @@ body > .container{
 }
 
 .menu{
-    width: 1160px;
     min-height: 500px;
+    position: relative;
     height: auto;
     padding-bottom: 30px;
     margin: auto;
@@ -175,7 +173,6 @@ body > .container{
     position: absolute;
     display: none;
     padding: 10px 0;
-    width: 1160px;
     font-size: 17px;
 }
 
