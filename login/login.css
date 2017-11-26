@@ -26,6 +26,7 @@
 #login form label{
   padding-bottom: 4px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 #login form div{
@@ -42,10 +43,6 @@
   font-size: 15px;
   box-sizing: border-box;
   outline: none;
-}
-
-#login form label:{
-  color: #FF0099;
 }
 
 #login form input:focus{

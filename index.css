@@ -106,10 +106,15 @@ h1{
   display: block;
 }
 
-section{
-  padding: 40px 0;
-}
+/* section{
+  padding: 10px 0;
+} */
 
 .button{
   text-align: center;
+}
+
+.buttons{
+  text-align: center;
+  padding-bottom: 40px;
 }
