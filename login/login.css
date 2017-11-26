@@ -44,7 +44,7 @@
   outline: none;
 }
 
-#login form label::selection{
+#login form label:{
   color: #FF0099;
 }
 

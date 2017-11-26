@@ -71,6 +71,70 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="img">
+            <img src="../img/Remansodapaz.jpg" alt="">
+        </div>
+        <div class="infos-principais">
+            <h2>Remanso da Paz</h2>
+            <p id="localizacao">Quixadá, Ceará</p>
+            <p id="categoria">Desenvolvimento Social</p>
+        </div>
+        <div class="container-infos">
+            <div class="img1"><img src="../img/Remansodapaz.jpg" alt=""></div>
+            <div class="infos">
+                <p>O Remanso da Paz - Casa de Acolhida São João Calábria é uma instituição sem fins lucrativos mantida pela Fundação Quixadaense de Fomento.</p>
+                <ul>
+                    <li>Vagas para 5 voluntários</li>
+                </ul>
+                <div class="funcionalidade">
+                    <button class="botao-ver" id="doar">Doar</button>
+                    <button class="botao-ver" id="voluntariar">Se voluntariar</button>
+                    <div class="redes">
+                        O projeto nas redes socias:
+                    </div>
+                    <button class="botao-ver">Contato</button>
+                    <button class="botao-ver">Seguir</button>
+                </div>
+            </div>
+            <div class="localizacao">
+                <p>Rua A, 95 - Sítio Lemos, Quixadá, Ceara, Brasil.</p>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+            <div class="item active">
+                <a>Sobre</a>
+                <div class="item-container">
+                    njciwremjvclkewrl,vçp
+                </div>
+            </div>
+            <div class="item">
+                <a>Mural</a>
+                <div class="item-container">
+                    njciwremjvclkewrl,vçp
+                </div>
+            </div>
+            <div class="item">
+                <a>Upholders</a>
+                <div class="item-container">
+                    njciwremjvclkewrl,vçp
+                </div>
+            </div>
+            <div class="item">
+                <a>Comentários</a>
+                <div class="item-container">
+                    njciwremjvclkewrl,vçp
+                </div>
+            </div>
+            <div class="item">
+                <a>Relatos de Experiência</a>
+                <div class="item-container">
+                    njciwremjvclkewrl,vçp
+                </div>
+            </div>
+    </div>
     
     <script src="../js/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -88,7 +152,14 @@
           $elem.fadeOut('fast');
           $img.attr("src", "../img/seta_baixo_explorar.png");
         });
+        
+
+        $(".item").click(function(){
+            $(".item").removeClass('active');
+            $(this).addClass('active');
+        })
       });
+
     </script>
 </body>
 </html>
