@@ -376,7 +376,7 @@ footer{
 
   footer .container-fluid{
     border-bottom: 1px solid #dcdcdc;
-    min-height: 500px;
+    min-height: 450px;
     padding-bottom: 30px;
     margin: 0 40px;
   }
@@ -387,11 +387,15 @@ footer{
 
   footer .container-fluid ul{
     list-style-type: none;
-    padding: 20px 0 25px;
+    padding: 0px 0 25px;
+  }
+
+  footer .container-fluid ul li{
+    padding: 3px 0;  
   }
 
   footer .container-fluid ul li a{
-    font-size: 14px;
+    font-size: 15px;
     color: #dcdcdc;
     padding: 3px 0;
   }
@@ -407,12 +411,12 @@ footer{
 
   footer .logo{
     text-align: center;
-    height: 150px;
+    height: 200px;
   }
 
   footer .logo img{
-    margin: 30px 0 10px;
-    height: 40px;
+    margin: 50px 0 10px;
+    height: 60px;
   }
 
   footer .logo .copyright{
