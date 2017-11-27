@@ -80,13 +80,10 @@
         <form action="">
             <div>
                 <label for="email">Email:</label>
-                <br>
                 <input type="text" id="email" placeholder="upholder@gmail.com">
-                <br>
             </div>
             <div>
                 <label for="senha">Senha:</label>
-                <br>
                 <input type="password" id="senha" placeholder="*******">
                 <a href="#">Esqueci minha senha</a>
             </div>
@@ -118,6 +115,10 @@
         $elem.fadeOut('fast');
         $img.attr("src", "../img/seta_baixo_explorar.png");
       });
+      $("input", "#login").focus(function(){
+		$("label", "#login").removeClass("active");
+		$(this).siblings("label").addClass("active");
+	  });
     });
   </script>
 </body>
