@@ -45,8 +45,12 @@
   outline: none;
 }
 
-#login form input:focus{
+#login form div input:focus{
   border: 1px solid #FF0099;
+}
+
+#login form div input:focus ~ label{
+  color: #FF0099;
 }
 
 #login form div a{
