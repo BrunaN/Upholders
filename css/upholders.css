@@ -126,9 +126,9 @@ body{
     display: inline-block;
     background-image: url("../img/pin_branco.png");
     height: 15px;
-    width: 10px;
+    width: 12px;
     margin-left: 2.5px;
-    margin-right: 12.5px;
+    margin-right: 10px;
     background-size: 100% 100%;
 }
 
@@ -196,9 +196,9 @@ body{
     display: inline-block;
     background-image: url("../img/tag.png");
     height: 15px;
-    width: 15px;
+    width: 12px;
     margin-left: 2.5px;
-    margin-right: 12.5px;
+    margin-right: 10px;
     background-size: 100% 100%;
 }
 
