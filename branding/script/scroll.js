@@ -45,7 +45,11 @@ $(function () { // wait for document ready
                     // .addIndicators() // add indicators (requires plugin)
                     .duration(document.getElementById("section6").clientHeight)
                     .addTo(controller);
-     
+                new ScrollMagic.Scene({triggerElement: "#section7"})
+                    .setClassToggle("#nav-section7", "active") // add class toggle
+                    // .addIndicators() // add indicators (requires plugin)
+                    .duration(document.getElementById("section7").clientHeight)
+                    .addTo(controller);
         
         // run("nav-videos","click", function(){alert("yes")});
         function run(elem,evento,func){
