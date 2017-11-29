@@ -122,3 +122,10 @@ h1{
   text-align: center;
   padding-bottom: 40px;
 }
+
+
+.container-fluid .botao-medio{
+  background-color: transparent;
+  font-size: 16px;
+  border-width: 2px;
+}
