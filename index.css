@@ -125,7 +125,20 @@ h1{
 
 
 .container-fluid .botao-medio{
+  color: #fff;
   background-color: transparent;
   font-size: 16px;
   border-width: 2px;
+}
+
+#botao1:hover{
+  background-color: #fff;
+  color: #56de3f;
+  font-weight: bold;
+}
+
+#botao2:hover{
+  background-color: #fff;
+  color: #ff9900;
+  font-weight: bold;
 }
