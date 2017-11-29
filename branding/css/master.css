@@ -295,3 +295,7 @@ h3{
 #download a:hover{
     color: #56de3f;; 
 }
+
+#section7{
+    min-height:100vh;
+}
