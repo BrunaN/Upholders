@@ -217,3 +217,34 @@ body > .container{
 #menu .item:hover{
     border-bottom: 3px solid #FF9900;
 }
+
+#denunciar{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px;
+    padding-right: 0;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+}
+
+#denunciar p{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#botao-denunciar{
+    background-color: #fd4d9f;
+    width: 210px;
+    height: 46px;
+    box-sizing: border-box;
+    margin: 0;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#botao-denunciar:hover{
+    font-weight: bold;
+}

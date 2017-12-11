@@ -250,7 +250,7 @@ body{
 
 .card-relato .relato-container h3{
     margin: 0;
-    padding: 8px 0 0;
+    padding: 0;
     font-size: 15px;
 }
 
@@ -730,4 +730,67 @@ input{
 
 .header-carousel .overlay .dot.active{
     background-color:#ff2180;
+}
+
+/* Modal */
+
+/* .modal{
+    max-height: 100vh;
+}
+
+.modal-dialog{
+    margin-top: 50vh;
+    transform: translateY(-50%) !important;
+} */
+
+.modal-content{
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 16px;
+}
+
+.modal-content #titulo, textarea{
+    border: 1px solid #797979;
+    width: 100%;
+    outline: none;
+    padding: 3px 6px;
+}
+
+.modal-content .modal-header, .modal-content .modal-body, .modal-content .modal-footer{
+    border: none;
+    padding-bottom: 0;
+}
+
+.modal-content .modal-footer{
+    padding-top: 10px;
+}
+
+.modal-content .modal-header h1{
+    font-size: 25px;
+}
+
+.modal-content #close{
+    border: none;
+    background-color: transparent;
+    float: right;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ccc;
+}
+
+.modal-content textarea{
+    resize: none;
+    border-radius: 6px;
+}
+
+.modal-content .modal-body #div-anonimato{
+    padding: 10px 0;
+}
+
+.modal-content #close:hover{
+    color: #ff2180;
+}
+
+.modal-content .modal-footer{
+    text-align: center;
 }

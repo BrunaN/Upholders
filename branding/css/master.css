@@ -285,3 +285,17 @@ h3{
 .row{
     padding-top: 15vh;
 }
+
+#download a{
+    color:#ff218a; 
+    text-decoration:none; 
+    font-weight:bolder;
+}
+
+#download a:hover{
+    color: #56de3f;; 
+}
+
+#section7{
+    min-height:100vh;
+}
